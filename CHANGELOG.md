@@ -16,6 +16,15 @@ The rules for this file:
   * accompany each entry with github issue/PR number (Issue #xyz)
 -->
 
+## [Unreleased]
+
+### Authors
+- RubenChM
+
+### Changed
+- Removed deprecated `util.which` function
+- Update CoC (Issue #66)
+
 ## [0.5.0] -- 2024-11-22
 
 ### Authors
