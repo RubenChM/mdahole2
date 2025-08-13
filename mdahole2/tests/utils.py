@@ -13,8 +13,8 @@ def executable_not_found(*args):
     """
     # This must come here so that MDAnalysis isn't imported prematurely,
     #  which spoils coverage accounting (see Issue 344).
-    import MDAnalysis.lib.util
+    import shutil
     for name in args:
-        if MDAnalysis.lib.util.which(name) is not None:
+        if shutil.which(name) is not None:
             return False
     return True

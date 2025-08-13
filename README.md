@@ -26,7 +26,6 @@ conda install -c conda-forge mdahole2-base
 Or install from pip:
 ```
 pip install mdahole2
-
 ```
 
 Note that `mdahole2` is only supported on Linux and macOS.
